@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 60vw;
+    margin: 0 auto;
+}
+
+#grid {
+    width: 380px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 4vw;
+    border: 3px solid #000000;
+}
+@media(max-width: 580px){
+    #grid{
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        margin-top: 4vw;
+    }
+}
+td{
+    padding: 0;
+}
+
+.cell input {
+    display: inline-block;
+    
+    margin:0;
+    padding: 0;
+
+    border: 1px solid black;
+    width: 100%;
+    height: 100%;
+
+    text-align: center;
+    font-size: 30px;
+}
+
+.highlighted-cell{
+    background-color: rgb(203, 238, 251);
+    border: 1.5px solid black;
+}
+#button-div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+.all-buttons{
+    font-family: monospace;
+    border-radius: 2px;
+    background-color: rgb(203, 238, 251);
+    font-size: 18px;
+    padding: 3px;
+}
+.all-buttons:hover{
+    background-color: rgb(149, 224, 251);
+}
